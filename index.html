@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ntuantai</title>
+    <!-- WEBSITE DESCRIPTION -->
+    <meta property="og:title" content="ntuantai">
+    <meta property="og:description" content="Welcome To My Website!">
+    <meta property="og:image" content="https://media.discordapp.net/attachments/1125623209979543614/1285563570893094993/123526769.png?ex=66eab9df&is=66e9685f&hm=481c02dcc4cf6ff7db1c33645843b2001fe97f8d0b40519af15785859b5a30b9&=&format=webp&quality=lossless&width=575&height=575">
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- MATERIAL ICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./assets/img/avatar.png">
+</head>
+<body>
+    <div id="welcome-popup-overlay">
+        <div id="welcome-popup">
+            <h2>Welcome to the website!</h2>
+            <p>Have a great experience 🎶</p>
+            <button id="welcome-ok-btn">OK</button>
+        </div>
+    </div>
+    <button id="play-music-btn" style="display:none;">Turn on background music</button>
+    <audio id="bg-music" src="./assets/music/music.mp3" loop preload="auto"></audio>
+    <main>
+        <div id="container">
+            <header class="main-header">
+                <img src = "./assets/img/avatar.png">
+                <h1>ntt.tuantai</h1>
+                <p><span class="auto-typed"></span></p>
+                <div class="tag">
+                    <div>
+                        <span>🗺 Lives in:</span>  Ho Chi Minh City
+                    </div>
+                    <div>
+                        <span>🌏 From:</span>  Vietnam
+                    </div>
+                    <div>
+                        <span>🚻 Gender:</span> Male
+                    </div>
+                    <div>
+                        <span>💼 Occupation:</span> Freelancer, Designer, Coder
+                    </div>
+                    <div>
+                        <span>🎧 Hobbies:</span> Listening to music
+                    </div>
+                    <div>
+                        <span>🎨 Tools:</span> Photoshop / VS Code
+                    </div>
+                    <div>
+                        <span>🎮 Games:</span> Valorant, Minecraft
+                    </div>
+                </div>
+            </header>
+            <div id="about-me">
+                <section id="contact" class="about-section">
+                    <div class="section-header">
+                        <h2>CONTACT</h2>
+                    </div>
+                    <div class="contact-list">
+                        <a class="contact-item" href="https://www.facebook.com/ntt.tuantai/" target="_blank">
+                            <span class="contact-icon"><i class="fab fa-facebook-square"></i></span>
+                            <span class="contact-label">Facebook</span>
+                        </a>
+                        <a class="contact-item" href="https://www.instagram.com/ntt.tuantai/" target="_blank">
+                            <span class="contact-icon"><i class="fab fa-instagram"></i></span>
+                            <span class="contact-label">Instagram</span>
+                        </a>
+                        <a class="contact-item" href="https://www.tiktok.com/@ntt.tuantai" target="_blank">
+                            <span class="contact-icon"><i class="fab fa-tiktok"></i></span>
+                            <span class="contact-label">TikTok</span>
+                        </a>
+                    </div>
+                </section>
+
+                <section id="skill-card" class="about-section">
+                    <div class="section-header">
+                        <h2>SKILLS</h2>
+                    </div>
+                    <div class="skills-container">
+                        <div class="skill-item">
+                            <i class="fas fa-brush"></i>
+                            <span>Photoshop</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>NodeJS</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="product-card" class="about-section">
+                    <div class="section-header">
+                        <h2>PRODUCTS</h2>
+                    </div>
+                    <div class="product-grid">
+                        <div class="product-item">
+                            <img src="./assets/img/Poster1.jpg" alt="Product 1">
+                        </div>
+                        <div class="product-item">
+                            <img src="./assets/img/Poster2.jpg" alt="Product 2">
+                        </div>
+                        <div class="product-item">
+                            <img src="./assets/img/Poster3.png" alt="Product 3">
+                        </div>
+                        <div class="product-item">
+                            <img src="./assets/img/Poster5.png" alt="Product 5">
+                        </div>
+                        <div class="product-item">
+                            <img src="./assets/img/Poster6.png" alt="Product 6">
+                        </div>
+                    </div>
+                </section>
+
+                <section id="overview" class="about-section">
+                    <div class="section-header">
+                        <h2>CAPABILITY OVERVIEW</h2>
+                    </div>
+                    <div class="overview-content">
+                        <div class="overview-item">
+                            <div class="overview-icon"><i class="fas fa-briefcase"></i></div>
+                            <div class="overview-number">2+</div>
+                            <div class="overview-label">years of experience</div>
+                        </div>
+                        <div class="overview-divider"></div>
+                        <div class="overview-item">
+                            <div class="overview-icon"><i class="fas fa-users"></i></div>
+                            <div class="overview-number">100+</div>
+                            <div class="overview-label">clients</div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="feedback" class="about-section">
+                    <div class="section-header">
+                        <h2>TESTIMONIALS</h2>
+                    </div>
+                    <div class="feedback-list">
+                        <div class="feedback-container">
+                            <div class="avatar-wrapper">
+                                <div class="avatar">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                            </div>
+                            <div class="feedback-main">
+                                <div class="feedback-header">
+                                    <div class="customer-info">
+                                        <h3 class="customer-name">CLIENT 1</h3>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="feedback-content">
+                                    <p class="feedback-text">
+                                        Impressive design, clear colors, and good layout. Maybe not 100% professional, but it's clear you're passionate about your work.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feedback-container">
+                            <div class="avatar-wrapper">
+                                <div class="avatar">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                            </div>
+                            <div class="feedback-main">
+                                <div class="feedback-header">
+                                    <div class="customer-info">
+                                        <h3 class="customer-name">CLIENT 2</h3>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="feedback-content">
+                                    <p class="feedback-text">
+                                        Although not a professional, you work with great dedication. The layout is stable, and image processing is clean. I believe with a few more projects, you'll improve quickly.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feedback-container">
+                            <div class="avatar-wrapper">
+                                <div class="avatar">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                            </div>
+                            <div class="feedback-main">
+                                <div class="feedback-header">
+                                    <div class="customer-info">
+                                        <h3 class="customer-name">CLIENT 3</h3>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="feedback-content">
+                                    <p class="feedback-text">
+                                        The poster was made quickly, with beautiful color coordination, and looks quite eye-catching. Although not very professional, there's effort and a unique style. My slight suggestion is to try a few more font styles for more variety.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Thêm nhiều feedback-container ở đây nếu muốn -->
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <!-- FOOTER -->
+    <footer id="footer">
+      <div class="content">
+        <p>© <span class="text-red">NguyenTuanTai</span> | All Rights Reserved</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- SCRIPT -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="./script.js"></script>
+  <script>
+  // Welcome popup and music playback
+  document.addEventListener('DOMContentLoaded', function() {
+      var popup = document.getElementById('welcome-popup-overlay');
+      var okBtn = document.getElementById('welcome-ok-btn');
+      var audio = document.getElementById('bg-music');
+      // This button is not necessary if the popup handles it
+
+      document.body.classList.add('blurred');
+      okBtn.onclick = function() {
+          popup.style.display = 'none';
+          document.body.classList.remove('blurred');
+          audio.play();
+      };
+  });
+
+  var typed = new Typed('.auto-typed', {
+    strings: ['Designer', 'Coder', 'Freelancer'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    loop: true,
+  })
+
+  </script>
+</body>
+
+</html>
